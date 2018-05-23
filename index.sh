@@ -6,5 +6,6 @@ alias nginx-start="sudo nginx";
 alias nginx-stop="sudo nginx -s stop";
 alias nginx-reload="sudo nginx -s erload";
 alias nginx-t="sudo nginx -T";
+alias e-nginx="code /usr/local/etc/nginx";
 
 unset ROOT_PATH;
