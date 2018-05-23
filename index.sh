@@ -2,9 +2,9 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
-alias nginx-start="sudod nginx";
-alias nginx-stop="sudod nginx -s stop";
-alias nginx-reload="sudod nginx -s erload";
-alias nginx-t="sudod nginx -T";
+alias nginx-start="sudo nginx";
+alias nginx-stop="sudo nginx -s stop";
+alias nginx-reload="sudo nginx -s erload";
+alias nginx-t="sudo nginx -T";
 
 unset ROOT_PATH;
