@@ -1,11 +1,7 @@
 # ushell-module-nginx
 > Unix like shell for nginx.
 
-## in Mac(edit conf):
+## installation
 ```shell
-cd /usr/local/etc/nginx/
+npm i -S @feizheng/ushell-module-nginx
 ```
-
-## resources:
-
-## commands:

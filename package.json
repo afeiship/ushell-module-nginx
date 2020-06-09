@@ -1,6 +1,6 @@
 {
-  "name": "ushell-module-nginx",
-  "version": "0.0.1",
+  "name": "@feizheng/ushell-module-nginx",
+  "version": "1.0.0",
   "description": "Unix like shell for nginx.",
   "main": "index.sh",
   "repository": {
@@ -13,12 +13,12 @@
     "shell",
     "ushell-module-nginx"
   ],
-  "authors": [
-    "feizheng <1290657123@qq.com>"
-  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-nginx/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-nginx"
+  "homepage": "https://github.com/afeiship/ushell-module-nginx",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
