@@ -2,6 +2,11 @@
 ## path:
 ROOT_PATH=$(dirname $BASH_SOURCE);
 
+alias ngx-start="nginx";
+alias ngx-stop="nginx -s stop";
+alias ngx-reload="nginx -s reload";
+alias ngx-test="nginx -t";
+
 if [[ $(uname) == Darwin ]]; then
   source $ROOT_PATH/index_ubuntu.sh;
 fi
