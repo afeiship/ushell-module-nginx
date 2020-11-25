@@ -5,6 +5,7 @@ ROOT_PATH=$(dirname $BASH_SOURCE);
 alias ngx-start="nginx";
 alias ngx-stop="nginx -s stop";
 alias ngx-reload="nginx -s reload";
+alias ngx-status="ps aux | grep nginx";
 alias ngx-test="nginx -t";
 
 if [[ $(uname) == Darwin ]]; then
