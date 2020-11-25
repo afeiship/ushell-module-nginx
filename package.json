@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/afeiship/ushell-module-nginx",
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   }
 }
