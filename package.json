@@ -7,12 +7,7 @@
     "type": "git",
     "url": "git+https://github.com/afeiship/ushell-module-nginx.git"
   },
-  "keywords": [
-    "ushell",
-    "unix",
-    "shell",
-    "ushell-module-nginx"
-  ],
+  "keywords": ["ushell", "unix", "shell", "ushell-module-nginx"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-nginx/issues"
@@ -21,5 +16,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }
