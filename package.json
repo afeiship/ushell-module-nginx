@@ -1,13 +1,20 @@
 {
   "name": "@jswork/ushell-module-nginx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Unix like shell for nginx.",
   "main": "index.sh",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/afeiship/ushell-module-nginx.git"
   },
-  "keywords": ["ushell", "unix", "shell", "ushell-module-nginx"],
+  "keywords": [
+    "unix",
+    "shell",
+    "nginx",
+    "conf",
+    "bash",
+    "command"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/afeiship/ushell-module-nginx/issues"
